@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Video Tutorials</title>
+    <style>
+        @font-face {
+            font-family: h;
+            src: url('appfont2_bold.ttf');
+        }
+        @font-face {
+            font-family: p;
+            src: url('appfont2_regular.ttf');
+        }
+  html{
+    scroll-behavior: smooth;
+  }
+  
+        body {
+            font-family: p, Arial, sans-serif;
+            background-color: #011e2c;
+            color: #333;
+            margin: 0;
+            padding:20px 20px;
+        }
+        .heading{
+            text-align: center;
+            color:#16C95F;
+            font-family: h, Arial, sans-serif;
+          margin-top:100px;
+          font-size:35px;
+        }
+  h1{
+    color:#16C95F;
+    font-size:16px;
+  }
+.btns  h1:nth-child(2){
+  transform:rotate(270deg);
+  font-size:25px;
+  transition:.5s;
+  font-family:h;
+} 
+#tskbtn{
+  font-size:30px;
+  cursor: pointer;
+
+}
+        .task {
+            margin: 20px 0;
+            padding: 20px;
+            background-color:#012D33;
+            border: 2px solid #16C95F;
+            border-radius: 10px;
+        }
+        .task h2 {
+            color: #16C95F;
+            text-align: center;
+            font-family: h, Arial, sans-serif;
+        }
+        iframe {
+            display: block;
+            margin: 20px auto;
+            border: none;
+            border-radius: 10px;
+            width: 100%;
+            height:640px; /* Adjust height for portrait mode */
+        }
+  .btns{
+    height:60px;
+    width:100%;
+    background:#012529;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:40;
+  }
+  .btns a{
+    height:30px;
+    width:80px;
+    background:red;
+    color:white;
+    text-decoration:none;
+    text-align:center;
+    margin-left:2px;
+    margin-right:2px;
+    line-height:30px;
+  }
+  .mobile_links{
+  height:100vh;
+  width:60%;
+  background:#011e2c;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position:fixed;
+  z-index:30;
+  top:-100vh;
+  right:0;
+  transition: .5s;
+}
+.mobile_links ul{
+  height:400px;
+  width:100%;
+  background:#011e2c;
+  display:inline;
+  align-items:center;
+  justify-content:space-between;
+  list-style: none;
+}
+
+.mobile_links ul li{
+  text-align:center;
+  width:100%;
+  margin-bottom: 15px;
+}
+
+.mobile_links ul li a{
+  color:#16C95F;
+  margin-left:15px;
+  font-size:20px;
+  font-weight:bold;
+  text-decoration: none;
+  cursor:pointer;
+  font-family:p;
+  position:relative;
+  text-align:center;
+  margin-bottom:15px;
+  width:100%;
+}
+.mobile_links ul li a::before{
+  content:" ";
+  background:#16C95F;
+  height:3px;
+  width:0;
+  position:absolute;
+  bottom:-3px;
+  left:0;
+  transition: 1.5s;
+}
+
+.mobile_links ul li a:hover::before{
+  width:100%;
+}
+ 
+        @media (max-width: 600px) {
+            iframe {
+                width: 100%;
+                height:640px;
+              max-width:360px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="heading">Short Tasks Video Tutorials</h1>
+  <div class="btns">
+    <h1>Select Task Turorial</h1>
+    <h1 id="tskbtn">⟨
+    </h1>
+  </div>
+
+    <div class="task" id="ulshortner">
+        <h2>Ul Shortner</h2>
+        <iframe src="https://www.youtube.com/embed/q84WYbld6ts?si=r-t0ibulQI-6xzeU" allowfullscreen></iframe>
+    </div>
+
+    <div class="task" id="mdisk">
+        <h2>mDisk</h2>
+        <iframe src="https://www.youtube.com/embed/9xxD2SIlCZw?si=X4bMcWcm7du7o728" allowfullscreen></iframe>
+    </div>
+
+    <div class="task" id="oMega">
+        <h2>oMega</h2>
+        <iframe src="https://www.youtube.com/embed/p5R0GPdARvY?si=ItoE7_ioM3CQDG_9" allowfullscreen></iframe>
+    </div>
+
+    <div class="task" id="nano">
+        <h2>Nano</h2>
+        <iframe src="https://www.youtube.com/embed/DR4cebE-AwU?si=YYw4y30vtnHUtPgo" allowfullscreen></iframe>
+    </div>
+   <div class="task" id="yam">
+        <h2>Yam Links</h2>
+        <iframe src="https://www.youtube.com/embed/dOVqaszXzWI?si=P1_ZjRYsKKjuSFtb" allowfullscreen></iframe>
+    </div>
+   <div class="task" id="instant">
+        <h2>Instant Links</h2>
+        <iframe src="https://www.youtube.com/embed/fKBE6lk50KY?si=BS4dpitBDlO2XBIj" allowfullscreen></iframe>
+    </div>
+   <div class="task" id="rocklink">
+        <h2>RockLinks</h2>
+        <iframe src="https://www.youtube.com/embed/4ynr1jZWLKs?si=-XqbuoWFRW5op7Tl" allowfullscreen></iframe>
+    </div>
+    <div class="task" id="ziplinker">
+        <h2>Zip Linker</h2>
+        <iframe src="https://www.youtube.com/embed/wJ2TvD7pOfI?si=mOVmDp6Q9lUavkOZ" allowfullscreen></iframe>
+    </div>
+
+  <div class="mobile_links" id="menu">
+        <ul>
+          <li><a href='#ulshortner' >Ul Shortner</a></li>
+          <li><a href='#mdisk' >mDisk</a></li>
+          <li><a href='#oMega'>oMaga </a></li>
+          <li><a href='#nano'>Nano</a></li>
+          <li><a href='#yam'>Yam Links</a></li>
+          <li><a href='#instant'>Instant Link</a></li>
+          <li><a href='#rocklink'>RockLinks</a></li>
+          <li><a href='#ziplinker'>Zip Linker</a></li>
+            
+        </ul>
+      </div>
+  
+  <script>
+  var a=1;
+var btn=document.getElementById("tskbtn");
+var mobile_menu=document.getElementById("menu");
+
+btn.addEventListener("click", myFunction);
+
+function myFunction() {
+    if(a==1){
+         mobile_menu.style.top=60+"px";
+        btn.innerHTML="⟩";
+        a=0;
+    }else{
+        mobile_menu.style.top=-100+"vh";
+        btn.innerHTML="⟨";
+        a=1;
+    }
+}
+  </script>
+</body>
+</html>

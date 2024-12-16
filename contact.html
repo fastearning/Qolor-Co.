@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact Us</title>
+  <link rel="icon" type="image/png" href="logo.png">
+  <style>
+  @font-face {
+            font-family: h;
+            src: url(appfont2_bold.ttf);
+        }
+        @font-face {
+            font-family: p;
+            src: url(appfont2_regular.ttf);
+        }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #011e2c;
+}
+
+.contact-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  height:100vh;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color:#28CC03;
+}
+
+.contact-info {
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.contact-item {
+  background-color: #012529;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  flex: 1 1 45%;
+  text-align:center;
+  margin:20px;
+}
+
+.contact-item h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #28CC03;
+  font-family:h;
+}
+
+.contact-item p {
+  font-size: 1rem;
+  color:white;
+  font-family:p;
+}
+
+.contact-item a {
+  text-decoration: none;
+  color:white;
+  font-family:p;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+.social-media {
+  text-align: center;
+}
+
+.social-media h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #009719;
+}
+
+.social-media ul {
+  list-style-type: none;
+  display:flex;
+  flex-wrap: wrap;
+  height:fit-content;
+  width:100%;
+  align-items:center;
+  justify-content:center;
+}
+.social-media li {
+  display: inline;
+  margin:15px;
+}
+
+.social-media a {
+  text-decoration: none;
+  font-size:20px;
+  color:white;
+
+}
+
+.social-media a:hover {
+  color:#28CC03;
+}
+
+@media (max-width: 768px) {
+  .contact-info {
+    grid-template-columns: 1fr 1fr;
+  }
+  .social-media li {
+  display: inline;
+  margin:15px;
+  flex:1 1 50%;
+}
+.contact-container{
+  height:fit-content;
+}
+}
+
+@media (max-width: 480px) {
+  .contact-info {
+    grid-template-columns: 1fr;
+  }
+  .social-media li {
+  display: inline;
+  margin:15px;
+  flex:1 1 50%;
+}
+.contact-container{
+  height:fit-content;
+}
+}
+
+  </style>
+</head>
+<body>
+  <div class="contact-container">
+    <header>
+      <h1>Contact Us</h1>
+    </header>
+
+    <section class="contact-info">
+      
+      <div class="contact-item">
+        <h2>Email Us</h2>
+        <p><a href="mailto:earningfast.help@gmail.com">earningfast.help@gmail.com</a></p>
+      </div>
+
+      <div class="contact-item">
+        <h2>Whatsapp</h2>
+        <p>Currently Unavailable</p>
+      </div>
+    </section>
+
+    <section class="social-media">
+      <h2>Follow Us</h2>
+      <ul>
+        <li><a target="_blank" href="https://discord.gg/3r4EE5YW9E">Discord</a></li>
+        <li><a href="https://www.youtube.com/@Qolor_co" target="_blank">Youtube</a></li>
+        <li><a href="https://whatsapp.com/channel/0029VaiAloMBA1f32cVbyX0L" target="_blank">Whatsapp Channel</a></li>
+        <li><a href="https://telegram.com/@FastEarningNews" target="_blank">Telegram</a></li>
+        <li><a href="https://www.instagram.com/qolorcommunity/" target="_blank">Instagram</a></li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
