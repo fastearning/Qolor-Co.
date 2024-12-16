@@ -184,7 +184,7 @@
         padding:12px;
     }
     .ftinner img{
-        
+        display:none;
     }
     .footer .ftinner h1{
         text-align: center;
