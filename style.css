@@ -20,11 +20,13 @@
 }
 .cover h1{
     color:#16C95F;
+    text-align:center;
 
 }
 .cover p{
     color:white;
     margin:10px;
+    text-align:center;
 }
 a{
     text-decoration:none;
