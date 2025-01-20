@@ -5,29 +5,6 @@
     scroll-behavior: smooth;
     transition:.3s;
 }
-.cover{
-    height:100vh;
-    width:100%;
-    background:linear-gradient(135deg,#021E22,#010304,#021E22);
-    position:fixed;
-    top:0;
-    left:0;
-    z-index:20000000;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-}
-.cover h1{
-    color:#16C95F;
-    text-align:center;
-
-}
-.cover p{
-    color:white;
-    margin:10px;
-    text-align:center;
-}
 a{
     text-decoration:none;
 }
@@ -60,7 +37,7 @@ body{
     background: linear-gradient(135deg,#021E22,#010304,#021E22);
 }
 .container{
-   background: transparent;
+    background:transparent;
     height:fit-content;
     width: 100%;
     margin-bottom:25px;
@@ -68,7 +45,7 @@ body{
 .nav{
     height:60px;
     width:100%;
-    background:#012529;
+    background:#012b30;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -99,9 +76,7 @@ body{
     height:50px;
     width:50px;
     border-radius: 50%;
-    margin-left:10px;
-    border:3px solid white;
-    margin-right:2px;
+    margin-left: 10px;
 }
 .nav .menu{
     height:100px;
@@ -154,6 +129,7 @@ width:100%;
     height:50vh;
     width:45%;
     
+    
 }
 .main_image{
     background:transparent;
@@ -162,8 +138,10 @@ width:100%;
     justify-content: center;
 }
 .main_image img{
-height:500px;
-width: 500px;
+height:30vw;
+width:30vw;
+border-radius:50%;
+filter: saturate(2);
 }
 .main_content{
     background:transparent;
@@ -176,25 +154,27 @@ width: 500px;
     justify-content: center;
 }
 .main_content h1{
-    color:white;
+    color:White;
     font-family: QolorBold;
     margin-bottom: 30px;
     text-align: center;
+    font-size:2vw;
 }
 .main_content p{
     color:#16C95F;
     font-family: Qolor;
+    font-size:1vw;
     
 }
 .main_content a{
     height:45px;
-    width:250px;
+    width:18vw;
     margin-top:50px;
     color:white;
     background:#16C95F;
     border-radius:12px;
     border:3px solid white;
-    font-size:20px;
+    font-size:1.5vw;
     font-family:QolorBold;
     text-decoration:none;
     line-height:40px;
@@ -214,6 +194,7 @@ width: 500px;
     color:white;
     background:transparent;
     text-align: center;
+    margin-top:20px;
 }
 .partners #our_parteners{
     height:200px;
@@ -224,7 +205,10 @@ width: 500px;
     justify-content:center;
     padding: 10px 10px 10px 10px;
 }
-.partners #our_parteners img{
+.partners #our_parteners marquee{
+    display:flex;
+}
+.partners #our_parteners .card img{
 height:100px;
 width: 100px;
 margin-left:20px;
@@ -233,9 +217,34 @@ cursor: pointer;
 border:5px solid rgb(255, 255, 255);
 border-radius:50%;
 }
-.partners #our_parteners img:hover{
-scale:1.2;
+
+.partners #our_parteners .card{
+    display:flex;
+    padding:20px;
+    height:fit-content;
+    align-items:center;
+    justify-content:center;
 }
+
+.partners #our_parteners .card .card_info{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.partners #our_parteners .card .card_info h1{
+    font-family:Qolor;
+    color: #16C95F;
+    margin-bottom:20px;
+}
+.partners #our_parteners .card .card_info p{
+    font-family: QolorBold;
+    color:white;
+    margin-bottom:20px;
+
+}
+
 .partners h1{
     width:100%;
     text-align: center;
@@ -381,14 +390,11 @@ transition: .3s ease-in-out;
     justify-content:space-around;
     overflow: hidden;
     position: relative;
-     background:#02363b;
-    border-radius:10px;
-    box-shadow: 0px 10px#0a8d73;
+    background:#012529;
     border: 5px solid #0a8d73;
-
+    box-shadow: 0px 10px 0 0 #0a8d73;
+    border-radius:10px;
 }
-
-
 .app_info .future_products div h2{
     font-size:20px;
     color:#16C95F;
@@ -400,7 +406,7 @@ transition: .3s ease-in-out;
 height: 100px;
 width:100px;
 border-radius:50%;
-border:5px solid white;
+border:5px solid rgb(255, 255, 255);
 }
 .app_info .future_products div .fake_btn{
 height:30px;
@@ -446,18 +452,23 @@ border-radius:20px;
 
 
 .app_num h1{
+    color:White;
+    font-family: Qolor;
+    font-size:25px;
     text-align: center;
-    color:white;
 }
 .app_data{
     height:350px;
+    width:100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+   
 }
 .app_data div{
     height:150px;
-    width:150px;
+    width:auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -465,6 +476,8 @@ border-radius:20px;
     flex-wrap: wrap;
     margin-left: 20px;
     margin-right: 20px;
+    background: #02363b;
+    flex: 1 1 35%;
 }
 .app_data div h1{
  font-size:30px;
@@ -484,7 +497,7 @@ border-radius:20px;
     display: flex;
     align-items: center;
     justify-content:space-between;
-    background:transparent;
+    background:transparent
 
 }
 .footer .ftinner{
@@ -514,7 +527,7 @@ border-radius:20px;
 } 
 .footer .ftinner ul{
     list-style: none;
-    height:200px;
+    height:fit-content;
     width:100%;
     display:flex;
     flex-direction:column;
@@ -661,11 +674,11 @@ margin-bottom:10px;
         font-family:Qolor;
         margin-bottom:35px;
     }
-    .main .ptnr_box .partenrs a{
+    .main .ptnr_box .partenrs a,.partners #our_parteners .card .card_info a{
         height:40px;
         width:200px;
-        color:#16C95F;
-        background:#011214;
+        color:white;
+        background:#16C95F;
         display:flex;
         align-items:center;
         justify-content:center;
@@ -676,7 +689,7 @@ margin-bottom:10px;
         transition:.3s;
     }
 
-    .main .ptnr_box .partenrs a:hover{
+    .main .ptnr_box .partenrs a:hover,.partners #our_parteners .card .card_info a:hover{
         color:#0c582b;
     }
 
@@ -809,7 +822,7 @@ margin-bottom:10px;
   #floating_button{
     width:100%;
     height:200px;
-    background:#012529;
+    background-color: #012529;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -825,7 +838,7 @@ margin-bottom:10px;
     color:#16C95F;
     margin-bottom:35px;
     font-family: QolorBold;
-    font-size:25px;
+    font-size:2vw;
   }
 
   #floating_button a{
@@ -833,7 +846,7 @@ margin-bottom:10px;
     text-align:center;
     color:white;
     margin-top:15px;
-    font-size:18px;
+    font-size:1vw;
     font-family:qolor;
     background:#16C95F;
     height:35px;
@@ -845,69 +858,7 @@ margin-bottom:10px;
     background: #000201;
   }
 
-  .reviews{
-    height:fit-content;
-    width:100%;
-    color:white;
-    background:transparent;
-    text-align: center;
-}
-.reviews #reviews_card{
-    height:200px;
-    width:100%;
-    background:transparent;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    padding: 10px 10px 10px 10px;
-}
-.reviews #reviews_card marquee{
-    display:flex;
-}
-.reviews #reviews_card .card img{
-height:100px;
-width: 100px;
-margin-left:20px;
-margin-right:20px;
-cursor: pointer;
-border:5px solid rgb(255, 255, 255);
-border-radius:50%;
-}
-
-.reviews #reviews_card .card{
-    display:flex;
-    padding:20px;
-    height:fit-content;
-    align-items:center;
-    justify-content:center;
-}
-
-.reviews #reviews_card .card .card_info{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-}
-
-.reviews #reviews_card .card .card_info h1{
-    font-family:Qolor;
-    color: #16C95F;
-    margin-bottom:20px;
-}
-.reviews #reviews_card .card .card_info p{
-    font-family: QolorBold;
-    color:white;
-    margin-bottom:20px;
-
-}
-
-.reviews h1{
-    width:100%;
-    text-align: center;
-    font-family: QolorBold;
-    font-size: 25px;
-    color:white;
-}
+  
 
 
     @media(min-height:1280px){

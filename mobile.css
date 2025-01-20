@@ -28,22 +28,36 @@
        justify-content: center;
     }
     .main_content p{
-        margin-bottom:30px;
+        margin-bottom:15px;
     }
     .main_image {
         margin:0;
         height:fit-content;
+        padding:10%;
     }
     .main_image img{
-        height:350px;
-        width:350px;
-        margin-top:0;
-        margin-bottom:0;
+        height:50vw;
+        width:50vw;
+       margin:20px;
+    }
+    .main_content h1{
+        color:White;
+        font-family: QolorBold;
+        text-align: center;
+        font-size:5vw;
+    }
+    .main_content p{
+        color:#16C95F;
+        font-family: Qolor;
+        font-size:3vw;
+        
     }
     .main_content a{
         margin-top:50px;
-        margin-bottom:80px;
+        margin-bottom:120px;
         border-color: aliceblue;
+        width:50%;
+        font-size:3.5vw;
     }
     .partners{
         height:300px;
@@ -115,7 +129,6 @@
         color:white;
          
      }
-
     .app_info .future_products div .fake_btn{
         height:40px;
         color:white;
@@ -160,10 +173,10 @@
     .app_data div{
         width:75px;
         height:150px;
-        background:transparent;
         position: relative;
         flex:1 1 33%;
         margin:10px;
+        background: #02363b;
       
     }
     
@@ -178,10 +191,11 @@
         background:transparent
     }
     .footer .ftinner{
-        height:300px;
+        height:fit-content;
         width:250px;
         background:transparent;
         padding:12px;
+        margin-bottom:10px;
     }
     .ftinner img{
         display:none;
@@ -205,9 +219,13 @@
     }
 
     .main_footer{
-        height:35px;
+        height: 50px;
         width:100%;
         background:black;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-size:3vw;
     }
 
     .gototop{
@@ -317,6 +335,7 @@ width:100%;
         align-items:center;
         flex-direction:column;
         transition:.5s;
+        display:none;
       }
 
       .slide .screenshot img {
@@ -369,7 +388,17 @@ width:100%;
         flex-direction: column;
         margin:0;
       }
-    
+      #floating_button h1{
+        width:100%;
+        text-align:center;
+        color:#16C95F;
+        margin-bottom:35px;
+        font-family: QolorBold;
+        font-size:5vw;
+      }
+      #floating_button a{
+        font-size:3vw;
+      }
 }
 
 

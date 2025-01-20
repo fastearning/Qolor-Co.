@@ -82,3 +82,11 @@ function changeSlide(direction) {
 
   slides.style.transform = `translateX(-${currentIndex * 100}%)`;
 }
+
+
+let date = new Date();
+let year = date.getYear()+1900;
+
+window.addEventListener('load',()=>{
+  document.getElementById("year").textContent=+year;
+});
