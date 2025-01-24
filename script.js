@@ -24,7 +24,7 @@ menuBtn.addEventListener("click", myFunction);
 function myFunction() {
     if(open==1){
       menuShutter.style.top=35+"px";
-      menuBtn.innerHTML="❌";
+      menuBtn.innerHTML="✖";
         open=0;
     }else{
       menuShutter.style.top=-450+"px";

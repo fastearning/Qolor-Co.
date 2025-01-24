@@ -1,7 +1,7 @@
 @media(max-width:800px) {
     
     body{
-        background: linear-gradient(135deg,#021E22,#010304,#021E22);
+        background: #141823;
         padding-top:60px;
     }
     #menu{
@@ -47,17 +47,16 @@
         font-size:5vw;
     }
     .main_content p{
-        color:#16C95F;
+        color:#06A10C;
         font-family: Qolor;
         font-size:3vw;
         
     }
-    .main_content a{
+    .main_content .sonar-emitter{
         margin-top:50px;
         margin-bottom:120px;
-        border-color: aliceblue;
         width:50%;
-        font-size:3.5vw;
+        font-size:2.5vw;
     }
     .partners{
         height:300px;
@@ -122,7 +121,7 @@
         
     }
     .features .features_info div h2{
-       color:#16C95F;
+       color:#06A10C;
         
     }
     .features .features_info div p{
@@ -176,7 +175,7 @@
         position: relative;
         flex:1 1 33%;
         margin:10px;
-        background: #02363b;
+        background:#1D1D28;
       
     }
     
@@ -236,7 +235,7 @@
         position: fixed;
         bottom:60px;
         right:20px;
-        background:#012529;
+        background:#1D1D28;
         border: 3px solid #000201;
         border-radius: 50%;
         text-decoration: none;
@@ -262,7 +261,7 @@
 }
 #menu_shutter ul{
     float:right;
-    background:#012D33;
+    background:#1D1D28;
     padding:20px;
     list-style-type:none;
     height:250px;
@@ -293,7 +292,7 @@
     position: absolute;
     content: " ";
     bottom: -3px;
-    background:#16C95F;
+    background:#06A10C;
     transition: .5s ease-in-out;
     border-radius:10px;
 }
@@ -371,7 +370,7 @@ width:100%;
         height:25px;
         width:100%;
         font-size:18px;
-        color:#16C95F;
+        color:#06A10C;
         margin-bottom:20px;
         text-align:left;
         font-family: Qolor;
@@ -391,7 +390,7 @@ width:100%;
       #floating_button h1{
         width:100%;
         text-align:center;
-        color:#16C95F;
+        color:#06A10C;
         margin-bottom:35px;
         font-family: QolorBold;
         font-size:5vw;

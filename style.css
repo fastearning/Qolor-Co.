@@ -30,11 +30,11 @@ a{
   }
   
   ::-webkit-scrollbar-thumb {
-    background:#012529;
+    background:#141823;
   }
   
 body{
-    background: linear-gradient(135deg,#021E22,#010304,#021E22);
+    background:#141823;
 }
 .container{
     background:transparent;
@@ -45,7 +45,7 @@ body{
 .nav{
     height:60px;
     width:100%;
-    background:#012b30;
+    background:#1D1D28;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -107,7 +107,7 @@ body{
     position: absolute;
     content: " ";
     bottom: -3px;
-    background: #16C95F;
+    background:#06A10C;
     transition: .5s ease-in-out;
 }
 
@@ -161,18 +161,18 @@ filter: saturate(2);
     font-size:2vw;
 }
 .main_content p{
-    color:#16C95F;
+    color:#06A10C;
     font-family: Qolor;
     font-size:1vw;
     
 }
-.main_content a{
+.main_content .sonar-emitter{
     height:45px;
     width:18vw;
     margin-top:50px;
     color:white;
-    background:#16C95F;
-    border-radius:12px;
+    background:#06A10C;
+    border-radius:90px;
     border:3px solid white;
     font-size:1.5vw;
     font-family:QolorBold;
@@ -180,6 +180,9 @@ filter: saturate(2);
     line-height:40px;
     animation: btn_shap 1s infinite;
     transition: .3s ease-in-out;
+    display:flex;
+    align-items:center;
+    justify-content:center;
     
 }
 .download_btn:hover{
@@ -235,7 +238,7 @@ border-radius:50%;
 
 .partners #our_parteners .card .card_info h1{
     font-family:Qolor;
-    color: #16C95F;
+    color: #06A10C;
     margin-bottom:20px;
 }
 .partners #our_parteners .card .card_info p{
@@ -283,7 +286,7 @@ text-align: center;
     padding:10px;
 }
 .features .features_info div{
-background:#02363b;
+background:#1D1D28;
 color:rgb(15, 5, 5);
 height:270px;
 margin:30px;
@@ -292,15 +295,13 @@ border-radius:10PX;
 padding: 10px 10px 10px 10px;
 position:relative;
 flex: 1 1 25%;
-box-shadow: 0px 10px#0a8d73;
-border: 5px solid #0a8d73;
 }
 
 
 
 
 .features .features_info div h2{
-    color:#16C95F;
+    color:#06A10C;
     font-size:20px;
 }
 .features .features_info div::after{
@@ -390,14 +391,12 @@ transition: .3s ease-in-out;
     justify-content:space-around;
     overflow: hidden;
     position: relative;
-    background:#012529;
-    border: 5px solid #0a8d73;
-    box-shadow: 0px 10px 0 0 #0a8d73;
+    background:#1D1D28;
     border-radius:10px;
 }
 .app_info .future_products div h2{
     font-size:20px;
-    color:#16C95F;
+    color:#06A10C;
     width:100%;
     background:transparent;
     font-family:QolorBold;
@@ -411,7 +410,7 @@ border:5px solid rgb(255, 255, 255);
 .app_info .future_products div .fake_btn{
 height:30px;
 color:white;
-background:#16C95F;
+background:#06A10C;
 width:150px;
 font-size:18px;
 text-align:center;
@@ -428,7 +427,7 @@ border-radius:20px;
     left:-25px;
     background:linear-gradient(to bottom,#01070c,#06233b75);
     z-index: 2;
-    color:#16C95F;
+    color:#06A10C;
     transition:.5s ease-in-out;
     font-family: serif;
     border: none;
@@ -476,7 +475,7 @@ border-radius:20px;
     flex-wrap: wrap;
     margin-left: 20px;
     margin-right: 20px;
-    background: #02363b;
+    background: #1D1D28;
     flex: 1 1 35%;
 }
 .app_data div h1{
@@ -486,7 +485,7 @@ border-radius:20px;
 }
 .app_data div span{
     font-size:20px;
-    color:#16C95F;
+    color:#06A10C;
     font-family: QolorBold;
     text-align: center;
 }
@@ -508,7 +507,7 @@ border-radius:20px;
 }
 .footer .ftinner h1{
     font-family: QolorBold;
-    color:#16C95F;
+    color:#06A10C;
     font-size: 25px;
     margin-bottom:10px ;
 }
@@ -552,7 +551,7 @@ font-family: Qolor;
 transition:.3s;
 }
 .footer .ftinner ul li:hover a{
-color:#16C95F;
+color:#06A10C;
 }
 
 .footer .ftinner:nth-child(3) h1{
@@ -579,7 +578,7 @@ color:#16C95F;
     height:30px;
     width:100%;
     text-align:center;
-    color:#16C95F;
+    color:#06A10C;
     font-family:Qolor;
     font-size:16px;
     display:flex;
@@ -599,7 +598,7 @@ color:#16C95F;
     position: fixed;
     bottom:60px;
     right:150px;
-    background:#012529;
+    background:#1D1D28;
     border: 3px solid #000201;
     border-radius: 50%;
     text-decoration: none;
@@ -616,7 +615,7 @@ color:#16C95F;
     margin-top:100px;
 }
 .main h1{
-    color:#16C95F;
+    color:#06A10C;
 }
 .main .ptnr_box{
     height:fit-content;
@@ -633,7 +632,7 @@ color:#16C95F;
     flex-direction:column;
     align-items:center;
     margin:30px;
-    background:#031c1f;
+    background:#1D1D28;
     padding:20px;
     border: 3px solid oldlace;
     border-radius:20px;
@@ -647,14 +646,14 @@ margin-bottom:20px;
 }
 .main .ptnr_box .partenrs h2{
 font-family:QolorBold;
-color:#16C95F;
+color:#06A10C;
 font-size:30px;
 margin-bottom:10px;
 }
 
 .main .ptnr_box .partenrs lable{
     font-family:QolorBold;
-    color:#16C95F;
+    color:#06A10C;
     font-size:20px;
     margin:10px;
     }
@@ -678,19 +677,20 @@ margin-bottom:10px;
         height:40px;
         width:200px;
         color:white;
-        background:#16C95F;
+        background:#06A10C;
         display:flex;
         align-items:center;
         justify-content:center;
         font-size:18px;
         font-family:Qolor;
         text-decoration:none;
-        border-radius:10px;
+        border-radius:90px;
         transition:.3s;
+        font-weight: bold;
     }
 
     .main .ptnr_box .partenrs a:hover,.partners #our_parteners .card .card_info a:hover{
-        color:#0c582b;
+        color:black;
     }
 
     .imgslider{
@@ -745,6 +745,7 @@ margin-bottom:10px;
     border-radius:20px;
     margin-left:50px;
     transition:.3s;
+    border:3px solid white;
   }
   .slide .screenshot img:hover{
     scale:1.1;
@@ -784,7 +785,7 @@ margin-bottom:10px;
     height:35px;
     width:100%;
     font-size:18px;
-    color:#16C95F;
+    color:#06A10C;
     margin:20px;
     text-align:left;
     font-family: Qolorbold;
@@ -822,7 +823,7 @@ margin-bottom:10px;
   #floating_button{
     width:100%;
     height:200px;
-    background-color: #012529;
+    background-color: #1D1D28;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -835,7 +836,7 @@ margin-bottom:10px;
   #floating_button h1{
     width:100%;
     text-align:center;
-    color:#16C95F;
+    color:#06A10C;
     margin-bottom:35px;
     font-family: QolorBold;
     font-size:2vw;
@@ -848,10 +849,10 @@ margin-bottom:10px;
     margin-top:15px;
     font-size:1vw;
     font-family:qolor;
-    background:#16C95F;
+    background:#06A10C;
     height:35px;
     line-height:35px;
-    border-radius:10px;
+    border-radius:90px;
   }
 
   #floating_button a:hover{
@@ -900,3 +901,76 @@ margin-bottom:10px;
             font-family:Qolor; 
           }
     }
+
+    .sonar-wrapper {
+        height:fit-content;
+        width:100%;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+      }
+      
+      .sonar-wrapper {
+        position: relative;
+        z-index: 0;
+
+      }
+      
+      .sonar-emitter {
+        position: relative;
+        height:45px;
+        width:18vw;
+        margin-top:50px;
+        color:white;
+        background:#06A10C;
+        border-radius:90px;
+        font-size:1.5vw;
+        font-family:QolorBold;
+        text-decoration:none;
+        line-height:40px;
+        animation: btn_shap 1s infinite;
+        transition: .3s ease-in-out;
+      }
+      
+      .sonar-wave {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height:45px;
+        border-radius:90px;
+        background-color:green;
+        opacity: 0;
+        z-index: -1;
+        pointer-events: none;
+      }
+      
+      .sonar-wave1 {
+        animation: sonarWave 2s linear infinite;
+        border-radius:90px;
+      }
+      
+      .sonar-wave2 {
+        animation: sonarWave 2s 0.5s linear infinite;
+        border-radius:90px;
+      }
+      
+      .sonar-wave3 {
+        animation: sonarWave 2s 1s linear infinite;
+        border-radius:90px;
+      }
+      
+      .sonar-wave4 {
+        animation: sonarWave 2s 1.5s linear infinite;
+        border-radius:90px; 
+      }
+      
+      @keyframes sonarWave {
+        from {
+          opacity:0.2;
+        }
+        to {
+          transform: scale(1.5);
+          opacity:0;
+        }
+      }
