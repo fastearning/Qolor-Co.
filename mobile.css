@@ -36,8 +36,8 @@
         padding:10%;
     }
     .main_image img{
-        height:50vw;
-        width:50vw;
+        height:65vw;
+        width:65vw;
        margin:20px;
     }
     .main_content h1{
@@ -55,7 +55,7 @@
     .main_content .sonar-emitter{
         margin-top:50px;
         margin-bottom:120px;
-        width:65%;
+        width:50%;
         font-size:3.5vw;
     }
     .partners{
